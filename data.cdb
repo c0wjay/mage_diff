@@ -20812,6 +20812,29 @@
 					"desc": "C'est grâce aux artéfacts trouvés dans le Tombeau de Ludern que le professeur Wrinfrith et ses érudits ont pu concevoir cette hache de lancer."
 				},
 				{
+					"id": "MasterBall",
+					"name": "Master Ball",
+					"weight": 0.5,
+					"baseBonus": [],
+					"props": {
+						"disableLoot": true,
+						"skill": "MasterBall",
+						"model": "chars/Weapons/LeftHand_BlindingPowder.fbx"
+					},
+					"group": 12,
+					"type": "LeftHand",
+					"icon": {
+						"file": "ui/Icons_Resources.png",
+						"size": 96,
+						"x": 7,
+						"y": 19
+					},
+					"rarity": 3,
+					"price": 231,
+					"desc": "",
+					"iconeDone": true
+				},
+				{
 					"id": "BundleOneHandedSwordAxeMaceT1",
 					"name": "Set de forgeron apprenti  - I",
 					"weight": 0,
@@ -47956,6 +47979,31 @@
 					"jobLevel": 2
 				},
 				{
+					"item": "MasterBall",
+					"tool": "Anvil",
+					"recipe": [
+						{
+							"qty": 12,
+							"item": "Rimesteel"
+						},
+						{
+							"qty": 8,
+							"item": "GoldMineral"
+						}
+					],
+					"props": {
+						"produces": 2
+					},
+					"learnCost": [
+						{
+							"qty": 3,
+							"item": "Knowledge"
+						}
+					],
+					"itemCost": [],
+					"jobLevel": 4
+				},
+				{
 					"item": "LockPick",
 					"tool": "Workshop",
 					"recipe": [
@@ -54685,61 +54733,61 @@
 					"title": "Anvil"
 				},
 				{
-					"index": 149,
+					"index": 150,
 					"title": "Workshop"
 				},
 				{
-					"index": 149,
+					"index": 150,
 					"title": "Divers",
 					"level": 1
 				},
 				{
-					"index": 161,
+					"index": 162,
 					"level": 1,
 					"title": "Animal"
 				},
 				{
-					"index": 171,
+					"index": 172,
 					"level": 1,
 					"title": "Belts"
 				},
 				{
-					"index": 188,
+					"index": 189,
 					"level": 1,
 					"title": "ToolCampUpgradable"
 				},
 				{
-					"index": 225,
+					"index": 226,
 					"level": 1,
 					"title": "ToolCampNonUpgradable"
 				},
 				{
-					"index": 233,
+					"index": 234,
 					"title": "Apothecary"
 				},
 				{
-					"index": 325,
+					"index": 326,
 					"title": "ConverterTools"
 				},
 				{
-					"index": 343,
+					"index": 344,
 					"title": "Meta"
 				},
 				{
-					"index": 369,
+					"index": 370,
 					"title": "PathMight"
 				},
 				{
-					"index": 381,
+					"index": 382,
 					"title": "PathTrade"
 				},
 				{
-					"index": 393,
+					"index": 394,
 					"level": 1,
 					"title": "PathCrime"
 				},
 				{
-					"index": 405,
+					"index": 406,
 					"title": "PathMystery"
 				}
 			],
@@ -61899,7 +61947,9 @@
 					],
 					"baseSkills": [],
 					"tier": 0,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorLight"
+					},
 					"stats": [
 						{
 							"value": 4,
@@ -61967,7 +62017,9 @@
 					],
 					"baseSkills": [],
 					"tier": 0,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorLight"
+					},
 					"stats": [
 						{
 							"value": 4,
@@ -62035,7 +62087,9 @@
 					],
 					"baseSkills": [],
 					"tier": 1,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorMedium"
+					},
 					"stats": [
 						{
 							"value": 5,
@@ -62110,7 +62164,9 @@
 						}
 					],
 					"tier": 2,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorHeavy"
+					},
 					"stats": [
 						{
 							"value": 4,
@@ -62183,7 +62239,8 @@
 					],
 					"tier": 3,
 					"props": {
-						"feature": "Difficulty_Update"
+						"feature": "Difficulty_Update",
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -62261,7 +62318,8 @@
 					],
 					"tier": 0,
 					"props": {
-						"importantStatus": "CriticalLeader"
+						"importantStatus": "CriticalLeader",
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -62316,7 +62374,9 @@
 					],
 					"baseSkills": [],
 					"tier": 0,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorMedium"
+					},
 					"stats": [
 						{
 							"value": 5,
@@ -62369,7 +62429,9 @@
 					],
 					"baseSkills": [],
 					"tier": 0,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorMedium"
+					},
 					"stats": [
 						{
 							"value": 5,
@@ -62422,7 +62484,9 @@
 					],
 					"baseSkills": [],
 					"tier": 1,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorLight"
+					},
 					"stats": [
 						{
 							"value": 4,
@@ -62479,7 +62543,9 @@
 						}
 					],
 					"tier": 2,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorMedium"
+					},
 					"stats": [
 						{
 							"value": 5,
@@ -62538,7 +62604,8 @@
 					],
 					"tier": 3,
 					"props": {
-						"feature": "Difficulty_Update"
+						"feature": "Difficulty_Update",
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -62598,7 +62665,8 @@
 					],
 					"tier": 0,
 					"props": {
-						"importantStatus": "ProtectionLeader"
+						"importantStatus": "ProtectionLeader",
+						"armorKind": "ArmorHeavy"
 					},
 					"stats": [
 						{
@@ -62665,7 +62733,9 @@
 					],
 					"baseSkills": [],
 					"tier": 0,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorHeavy"
+					},
 					"stats": [
 						{
 							"value": 4,
@@ -62728,7 +62798,9 @@
 					],
 					"baseSkills": [],
 					"tier": 0,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorMedium"
+					},
 					"stats": [
 						{
 							"value": 5,
@@ -62791,7 +62863,9 @@
 					],
 					"baseSkills": [],
 					"tier": 1,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorMedium"
+					},
 					"stats": [
 						{
 							"value": 5,
@@ -62861,7 +62935,9 @@
 						}
 					],
 					"tier": 2,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorLight"
+					},
 					"stats": [
 						{
 							"value": 4,
@@ -62932,7 +63008,8 @@
 					],
 					"tier": 3,
 					"props": {
-						"feature": "Difficulty_Update"
+						"feature": "Difficulty_Update",
+						"armorKind": "ArmorHeavy"
 					},
 					"stats": [
 						{
@@ -63001,7 +63078,8 @@
 					],
 					"tier": 0,
 					"props": {
-						"importantStatus": "InspirationLeader"
+						"importantStatus": "InspirationLeader",
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -63062,7 +63140,9 @@
 					],
 					"baseSkills": [],
 					"tier": 0,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorHeavy"
+					},
 					"stats": [
 						{
 							"value": 4,
@@ -63120,7 +63200,9 @@
 					],
 					"baseSkills": [],
 					"tier": 0,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorLight"
+					},
 					"stats": [
 						{
 							"value": 4,
@@ -63178,7 +63260,9 @@
 					],
 					"baseSkills": [],
 					"tier": 1,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorMedium"
+					},
 					"stats": [
 						{
 							"value": 5,
@@ -63245,7 +63329,8 @@
 							{
 								"kind": "PreventEngage"
 							}
-						]
+						],
+						"armorKind": "ArmorHeavy"
 					},
 					"stats": [
 						{
@@ -63311,7 +63396,8 @@
 					],
 					"tier": 3,
 					"props": {
-						"feature": "Difficulty_Update"
+						"feature": "Difficulty_Update",
+						"armorKind": "ArmorHeavy"
 					},
 					"stats": [
 						{
@@ -63375,7 +63461,8 @@
 					],
 					"tier": 0,
 					"props": {
-						"importantStatus": "TrueDamageLeader"
+						"importantStatus": "TrueDamageLeader",
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -63429,7 +63516,9 @@
 					],
 					"baseSkills": [],
 					"tier": 0,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorMedium"
+					},
 					"stats": [
 						{
 							"value": 5,
@@ -63482,7 +63571,9 @@
 					],
 					"baseSkills": [],
 					"tier": 0,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorMedium"
+					},
 					"stats": [
 						{
 							"value": 5,
@@ -63536,7 +63627,9 @@
 					],
 					"baseSkills": [],
 					"tier": 1,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorHeavy"
+					},
 					"stats": [
 						{
 							"value": 4,
@@ -63593,7 +63686,9 @@
 						}
 					],
 					"tier": 2,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorLight"
+					},
 					"stats": [
 						{
 							"value": 4,
@@ -63652,7 +63747,8 @@
 					],
 					"tier": 3,
 					"props": {
-						"feature": "Difficulty_Update"
+						"feature": "Difficulty_Update",
+						"armorKind": "ArmorHeavy"
 					},
 					"stats": [
 						{
@@ -63711,7 +63807,8 @@
 					],
 					"tier": 0,
 					"props": {
-						"importantStatus": "BrutalityLeader"
+						"importantStatus": "BrutalityLeader",
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -63766,7 +63863,9 @@
 					],
 					"baseSkills": [],
 					"tier": 0,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorMedium"
+					},
 					"stats": [
 						{
 							"value": 5,
@@ -63819,7 +63918,9 @@
 					],
 					"baseSkills": [],
 					"tier": 0,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorHeavy"
+					},
 					"stats": [
 						{
 							"value": 5,
@@ -63872,7 +63973,9 @@
 					],
 					"baseSkills": [],
 					"tier": 1,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorMedium"
+					},
 					"stats": [
 						{
 							"value": 5,
@@ -63930,7 +64033,9 @@
 						}
 					],
 					"tier": 2,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorLight"
+					},
 					"stats": [
 						{
 							"value": 4,
@@ -63988,7 +64093,8 @@
 					],
 					"tier": 3,
 					"props": {
-						"feature": "Difficulty_Update"
+						"feature": "Difficulty_Update",
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -64048,7 +64154,8 @@
 					],
 					"tier": 0,
 					"props": {
-						"importantStatus": "DmgPerBonusLeader"
+						"importantStatus": "DmgPerBonusLeader",
+						"armorKind": "ArmorHeavy"
 					},
 					"stats": [
 						{
@@ -64110,7 +64217,8 @@
 					"baseSkills": [],
 					"tier": 0,
 					"props": {
-						"hasWarpaint": true
+						"hasWarpaint": true,
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -64165,7 +64273,8 @@
 					"baseSkills": [],
 					"tier": 0,
 					"props": {
-						"hasWarpaint": true
+						"hasWarpaint": true,
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -64222,7 +64331,8 @@
 					"baseSkills": [],
 					"tier": 1,
 					"props": {
-						"hasWarpaint": true
+						"hasWarpaint": true,
+						"armorKind": "ArmorHeavy"
 					},
 					"stats": [
 						{
@@ -64293,7 +64403,8 @@
 								"kind": "Berserk"
 							}
 						],
-						"hasWarpaint": true
+						"hasWarpaint": true,
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -64352,7 +64463,8 @@
 					],
 					"tier": 3,
 					"props": {
-						"feature": "Difficulty_Update"
+						"feature": "Difficulty_Update",
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -64417,7 +64529,8 @@
 					"tier": 0,
 					"props": {
 						"feature": "Harag_Update",
-						"hasWarpaint": true
+						"hasWarpaint": true,
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -64492,7 +64605,8 @@
 					"tier": 0,
 					"rarity": 0,
 					"props": {
-						"feature": "Alazar1_Update"
+						"feature": "Alazar1_Update",
+						"armorKind": "ArmorHeavy"
 					},
 					"stats": [
 						{
@@ -64562,7 +64676,8 @@
 					"tier": 0,
 					"rarity": 0,
 					"props": {
-						"feature": "Alazar1_Update"
+						"feature": "Alazar1_Update",
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -64636,7 +64751,8 @@
 					"tier": 1,
 					"rarity": 1,
 					"props": {
-						"feature": "Alazar1_Update"
+						"feature": "Alazar1_Update",
+						"armorKind": "ArmorHeavy"
 					},
 					"stats": [
 						{
@@ -64710,7 +64826,8 @@
 					"tier": 2,
 					"rarity": 1,
 					"props": {
-						"feature": "Alazar1_Update"
+						"feature": "Alazar1_Update",
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -64784,7 +64901,8 @@
 					"tier": 3,
 					"rarity": 2,
 					"props": {
-						"feature": "Alazar1_Update"
+						"feature": "Alazar1_Update",
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -64859,7 +64977,8 @@
 					"rarity": 2,
 					"props": {
 						"feature": "Alazar1_Update",
-						"importantStatus": "SupportLeader"
+						"importantStatus": "SupportLeader",
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -64921,7 +65040,8 @@
 								"kind": "Dodge"
 							}
 						],
-						"flags": 131076
+						"flags": 131076,
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -64961,7 +65081,8 @@
 								"kind": "Dodge"
 							}
 						],
-						"flags": 1441796
+						"flags": 1441796,
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -65002,7 +65123,8 @@
 								"kind": "Dodge"
 							}
 						],
-						"flags": 131076
+						"flags": 131076,
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -65039,7 +65161,8 @@
 								"kind": "Dodge"
 							}
 						],
-						"flags": 393216
+						"flags": 393216,
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -67341,7 +67464,8 @@
 						"feature": "Alazar1_Update",
 						"skillOrderMinNbPlayersUnit": 8,
 						"skillOrderLoopNbPlayerUnits": 2,
-						"trait": "GreatVitality"
+						"trait": "GreatVitality",
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -67446,7 +67570,8 @@
 							}
 						],
 						"skillOrderLoopNbPlayerUnits": 2,
-						"skillOrderMinNbPlayersUnit": 6
+						"skillOrderMinNbPlayersUnit": 6,
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -67516,7 +67641,8 @@
 							}
 						],
 						"powerScale": 4,
-						"flags": 524444
+						"flags": 524444,
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -67592,7 +67718,8 @@
 						"powerScale": 6,
 						"flags": 156,
 						"skillOrderLoopNbPlayerUnits": 2,
-						"skillOrderMinNbPlayersUnit": 4
+						"skillOrderMinNbPlayersUnit": 4,
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -67677,7 +67804,8 @@
 						"powerScale": 6,
 						"flags": 156,
 						"skillOrderLoopNbPlayerUnits": 2,
-						"skillOrderMinNbPlayersUnit": 6
+						"skillOrderMinNbPlayersUnit": 6,
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -67898,7 +68026,8 @@
 						"powerScale": 8,
 						"flags": 156,
 						"skillOrderLoopNbPlayerUnits": 2,
-						"skillOrderMinNbPlayersUnit": 8
+						"skillOrderMinNbPlayersUnit": 8,
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -67987,7 +68116,8 @@
 						"powerScale": 8,
 						"flags": 163996,
 						"skillOrderLoopNbPlayerUnits": 2,
-						"skillOrderMinNbPlayersUnit": 8
+						"skillOrderMinNbPlayersUnit": 8,
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -68082,7 +68212,8 @@
 							}
 						],
 						"skillOrderLoopNbPlayerUnits": 2,
-						"skillOrderMinNbPlayersUnit": 8
+						"skillOrderMinNbPlayersUnit": 8,
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -68168,7 +68299,8 @@
 							}
 						],
 						"skillOrderLoopNbPlayerUnits": 2,
-						"skillOrderMinNbPlayersUnit": 8
+						"skillOrderMinNbPlayersUnit": 8,
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -68217,7 +68349,8 @@
 					"baseSkills": [],
 					"tier": 0,
 					"props": {
-						"flags": 4
+						"flags": 4,
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -68293,7 +68426,8 @@
 							}
 						],
 						"powerScale": 6,
-						"flags": 524444
+						"flags": 524444,
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -68375,7 +68509,8 @@
 							}
 						],
 						"powerScale": 6,
-						"flags": 524444
+						"flags": 524444,
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -68456,7 +68591,8 @@
 							{
 								"kind": "ResistFire"
 							}
-						]
+						],
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -68542,7 +68678,8 @@
 						"flags": 156,
 						"feature": "Alazar1_Update",
 						"skillOrderLoopNbPlayerUnits": 2,
-						"skillOrderMinNbPlayersUnit": 6
+						"skillOrderMinNbPlayersUnit": 6,
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -68626,7 +68763,8 @@
 						],
 						"powerScale": 8,
 						"flags": 524444,
-						"feature": "Alazar1_Update"
+						"feature": "Alazar1_Update",
+						"armorKind": "ArmorHeavy"
 					},
 					"stats": [
 						{
@@ -68707,7 +68845,8 @@
 						],
 						"powerScale": 12,
 						"flags": 524444,
-						"feature": "Alazar1_Update"
+						"feature": "Alazar1_Update",
+						"armorKind": "ArmorMedium"
 					},
 					"stats": [
 						{
@@ -68787,7 +68926,8 @@
 						],
 						"powerScale": 10,
 						"flags": 524444,
-						"feature": "Alazar1_Update"
+						"feature": "Alazar1_Update",
+						"armorKind": "ArmorLight"
 					},
 					"stats": [
 						{
@@ -68905,7 +69045,9 @@
 					"equipment": [],
 					"baseSkills": [],
 					"tier": 0,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorLight"
+					},
 					"stats": [
 						{
 							"value": 4,
@@ -68962,7 +69104,9 @@
 					"equipment": [],
 					"baseSkills": [],
 					"tier": 0,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorMedium"
+					},
 					"stats": [
 						{
 							"value": 5,
@@ -69019,7 +69163,9 @@
 					"equipment": [],
 					"baseSkills": [],
 					"tier": 0,
-					"props": {},
+					"props": {
+						"armorKind": "ArmorHeavy"
+					},
 					"stats": [
 						{
 							"value": 4,
@@ -77611,6 +77757,43 @@
 						"y": 4
 					},
 					"minDmg": 2
+				},
+				{
+					"id": "MasterBall",
+					"name": "Master Ball",
+					"desc": "",
+					"mode": 0,
+					"range": {
+						"allowedTargets": 0,
+						"baseDistance": 4
+					},
+					"props": {
+						"vars": {
+							"allowed": false,
+							"value1": 50,
+							"value2": 25
+						},
+						"apCost": 0,
+						"specialAnim": "ThrowLeftGrenade",
+						"itemCost": {
+							"item": "MasterBall",
+							"qty": 1
+						},
+						"castFx": "prefabs/fx/fight/Explosion/SmokeBomb/SmokeBomb.fx",
+						"throwFx": "prefabs/fx/fight/Explosion/Grenade/FlameBallThrowTrail.fx",
+						"needDisengaged": true
+					},
+					"script": "function onBeginAction() {\n\tvars.allowed = false;\n\tfor( u in getFoes(skill.unit) )\n\t\tif( canCaptureTarget(u) ) {\n\t\t\tvars.allowed = true;\n\t\t\tbreak;\n\t\t}\n}\n\nfunction onEval(a) {\n\tif( !canCaptureTarget(a.target) ){\n\t\tdontAllow();\n\t}\n}\n\nfunction onSkill() {\n\tplayAttack();\n\tfor (t in skill.getTargets()){\n\t\tif ( randInt(0, 100) <= vars.value1 ) {\n\t\t\tcaptureTarget(t);\n\t\t\tspawnFx();\n\t\t}\n\t}\n}\n\nfunction canCaptureTarget(t){\n\treturn ( (t.health / t.stats.health) < (vars.value2/100) );\n}",
+					"notes": "",
+					"icon": {
+						"file": "ui/Icons/BattleIcons_02_96PX.png",
+						"size": 96,
+						"x": 9,
+						"y": 9
+					},
+					"iconeDone": true,
+					"group": 15,
+					"done": 2
 				},
 				{
 					"id": "Poisoning",
